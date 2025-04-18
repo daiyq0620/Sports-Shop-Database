@@ -1,0 +1,4 @@
+echo "*.sql linguist-language=SQL" >> .gitattributes
+git add .gitattributes
+git commit -m "Force SQL language detection"
+git push
